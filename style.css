@@ -1,0 +1,64 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+body{
+    background-color: black;
+}
+.main{
+    margin: auto;
+    height: 270px;
+    width: 300px;
+    border: 3px solid blue;
+    border-radius: 100px;
+    margin-top: 30px;
+    /* background-image: url(https://img.freepik.com/premium-photo/grungy-textured-blank-surface-abstract-grey-background-dirty-poster-wallpaper-with-rough-grained-sto_124507-10829.jpg); */
+}
+.headd{
+    text-align: center;
+    color: white;
+    height: 60px;
+    padding-top: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center; 
+    color: white;
+    font-size: 20px;
+    margin-top: 0%;
+    height: 120px;
+    padding-top: 0%;
+
+}
+.one{
+    margin-right: 20px;
+}
+
+.two{
+    margin-left: 20px;
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 70px;
+    font-size: 25px;
+    border-radius: 6px;
+    color: white;
+    border: 2px solid blue;
+    background-color: black;
+}
+span{
+    color: blue;
+}
+.switch-t{
+    width: 250px;
+    background-color: black;
+    border: 2px solid blue;
+}
+.main01{
+    text-align: center;
+    margin-top: 100px;
+}

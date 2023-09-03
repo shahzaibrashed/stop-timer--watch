@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer-Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/012/067/332/non_2x/hand-holding-a-stopwatch-timer-png.png">
+</head>
+<body>
+    <div class="main01">
+        <a href="index.html"><button class="switch-t"><b><i>Switch to Watch</i></b></button></a>
+    </div>
+    <div class="main">
+        <div class="headd">
+            <h1>Timmer</h1>
+        </div>
+        <div class="flex">
+            <div class="one">              
+                <h1 id="timminutes">05</h1>
+            </div>
+            <div class="center">         
+                <h1 id="timseconds">00</h1>
+            </div>
+            <div class="two">
+                <h1 id="timmiliSec">00</h1>
+            </div>
+        </div>
+        <div class="btn">
+            <button onclick="timer()" id="btn-start">start</button>
+            <button onclick="timstop()" id="btn-stop">stop</button>
+            <button onclick="timreset()" id="btn-reset">reset</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
